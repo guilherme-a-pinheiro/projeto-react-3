@@ -1,7 +1,11 @@
+import * as S from './styles';
+
 function Home() {
   return (
     <div className="App">
-      <h1>Oi</h1>
+      <S.Wrapper>
+        <h1>Hello</h1>
+      </S.Wrapper>
     </div>
   );
 }
